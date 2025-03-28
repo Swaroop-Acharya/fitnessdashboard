@@ -21,7 +21,7 @@ export function Profile({ name, avatarUrl }: ProfileProps) {
 
   return (
     <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
-      <DropdownMenuTrigger className="group flex items-center gap-2 rounded-full p-1 pr-4 transition-all hover:bg-zinc-100 dark:hover:bg-zinc-800">
+      <DropdownMenuTrigger className="group flex items-center gap-2 rounded-full p-1 transition-all hover:bg-zinc-100 dark:hover:bg-zinc-800 md:pr-4">
         <div className="relative">
           <div className="relative h-10 w-10 rounded-full bg-gradient-to-br from-blue-500 to-indigo-500 p-[2px]">
             <div className="h-full w-full rounded-full bg-white p-[2px] dark:bg-zinc-900">
@@ -34,7 +34,7 @@ export function Profile({ name, avatarUrl }: ProfileProps) {
           </div>
           <div className="absolute bottom-0 right-0 h-3 w-3 rounded-full border-2 border-white bg-emerald-500 dark:border-zinc-900" />
         </div>
-        <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
+        <span className="hidden md:inline-block text-sm font-medium text-zinc-700 dark:text-zinc-300">
           {name}
         </span>
       </DropdownMenuTrigger>

@@ -48,10 +48,10 @@ export function Greeting() {
       </div>
       <div>
         <h1 className="text-xl font-semibold text-zinc-800 dark:text-zinc-200">
-          {greeting}
+          Fitness Dashboard
         </h1>
         <p className="text-sm text-zinc-600 dark:text-zinc-400">
-          Welcome back to your dashboard
+        {greeting}
         </p>
       </div>
     </div>
