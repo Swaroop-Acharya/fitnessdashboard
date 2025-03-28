@@ -33,7 +33,7 @@ export function PointsCard({ points, monthlyGoal, className }: PointsCardProps) 
               <Award className="w-5 h-5" />
             </div>
             <div>
-              <CardTitle className="text-xl">Achievement Points</CardTitle>
+              <CardTitle className="text-xl">Achievement</CardTitle>
               <CardDescription>Monthly Progress Tracker</CardDescription>
             </div>
           </div>
