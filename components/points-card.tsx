@@ -34,7 +34,7 @@ export function PointsCard({ points, monthlyGoal, className }: PointsCardProps) 
             </div>
             <div>
               <CardTitle className="text-xl">Achievement</CardTitle>
-              <CardDescription>Monthly Progress Tracker</CardDescription>
+              <CardDescription>Monthly Progress</CardDescription>
             </div>
           </div>
           <div className="flex items-center gap-2 text-zinc-500 dark:text-zinc-400">
