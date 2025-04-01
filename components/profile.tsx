@@ -40,9 +40,12 @@ export function Profile({ name, avatarUrl }: ProfileProps) {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-56">
         <DropdownMenuLabel>
-          <div className="flex flex-col space-y-1">
-            <p className="text-sm font-medium leading-none">{name}</p>
-            <p className="text-xs leading-none text-zinc-500">Full Stack Developer</p>
+          <div className="flex items-center space-x-2">
+            <User className="h-4 w-4 text-zinc-500" />
+            <div className="flex flex-col space-y-1">
+              <p className="text-sm font-medium leading-none">{name}</p>
+              <p className="text-xs leading-none text-zinc-500">Full Stack Developer</p>
+            </div>
           </div>
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
